@@ -36,7 +36,7 @@ elem_bc = boundary.elem(surf_bc, surf, elem)
 # run .exe
 title = file + '\n'
 create.preprocessing(elem, coord, elem_bc, title)
-subprocess.call([r"C:\Users\manso\Desktop\PYThON\BEM3d\3D_Potential_CHBIE_FMM_64.exe"])
+subprocess.call(['3D_Potential_CHBIE_FMM_64.exe'])
 
 # read output.dat file and extract temperature and heat flux
 [node, T, q] = create.postprocessing()
