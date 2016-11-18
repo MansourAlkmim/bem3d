@@ -1,0 +1,14 @@
+100	10	10 8 1.E-4	 ! maxl   levmx    nexp     nout(=8/17/26)  tolerance
+50	40000   50000	15	1	 ! maxia  ncellmx  nleafmx  mxl	   	    nstk
+
+! maxl      = maximum number of elements allowed in a leaf
+! levmx     = maximum number of levels allowed in the tree structure
+! nexp      = number of terms in multipole expansion
+! nout      = Number of Gaussian points for numerical integrations
+! tolerance = gmres solution convergence tolerance
+! maxia     = maximum number of variables allowed
+! ncellmx   = maximum number of cells allowed in the tree
+! nleafmx   = maximum number of leaves allowed in the tree
+! mxl       = maximum dimension of krylov subspace (used in gmres)
+! nstk      >0, store coefficients from direct evaluations for reuse
+!           =0, do not store coefficients from direct evaluations for reuse
